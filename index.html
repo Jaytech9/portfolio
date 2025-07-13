@@ -41,26 +41,47 @@
 
 <!-- PROJECTS -->
 <section id="projects" class="container py-5">
-  <h2>Projects</h2>
-  <div class="row">
-    <div class="col-md-4">
-      <div class="card mb-4">
-        <div class="card-body">
-          <h5 class="card-title">Portfolio Website</h5>
-          <p class="card-text">A responsive portfolio site built with HTML, CSS, Bootstrap.</p>
+    <h2 class="text-center mb-4">Projects</h2>
+  
+    <div id="projectsCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+  
+        <div class="carousel-item active">
+          <img src="https://via.placeholder.com/800x400?text=Portfolio+Website" class="d-block w-100" alt="Portfolio Website">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Portfolio Website</h5>
+            <p>A responsive portfolio site built with HTML, CSS, Bootstrap.</p>
+          </div>
         </div>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="card mb-4">
-        <div class="card-body">
-          <h5 class="card-title">NFT Marketplace</h5>
-          <p class="card-text">A decentralized NFT platform using Solidity & Web3.js.</p>
+  
+        <div class="carousel-item">
+          <img src="https://via.placeholder.com/800x400?text=NFT+Marketplace" class="d-block w-100" alt="NFT Marketplace">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>NFT Marketplace</h5>
+            <p>A decentralized NFT platform using Solidity & Web3.js.</p>
+          </div>
         </div>
+  
+        <div class="carousel-item">
+          <img src="https://via.placeholder.com/800x400?text=Another+Project" class="d-block w-100" alt="Another Project">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Another Project</h5>
+            <p>Description of another cool project.</p>
+          </div>
+        </div>
+  
       </div>
+  
+      <button class="carousel-control-prev" type="button" data-bs-target="#projectsCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#projectsCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
     </div>
-  </div>
-</section>
+  </section>
+  
+  
 
 <!-- CONTACT -->
 <section id="contact" class="container py-5">
